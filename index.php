@@ -92,7 +92,7 @@ include "side.php";
           <td><?php echo $data["harga"]; ?></td>
           <td>
           <a href="index.php?id_harga=<?php echo $data["id_harga"]; ?>"><i class="fa fa-pencil-square"></i> Edit</a> | 
-	      <a href="hapus_harga.php?id_harga=<?php echo $data[id_harga]; ?>" onclick='return confirm_hapus()'><i class="fa fa-trash-o"></i> Hapus</a></td>
+	      <a href="hapus_harga.php?id_harga=<?php echo $data["id_harga"]; ?>" onclick='return confirm_hapus()'><i class="fa fa-trash-o"></i> Hapus</a></td>
   		  </tr>
         </tr>
         <?php 

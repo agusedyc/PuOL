@@ -14,7 +14,7 @@ $_SESSION[nama]=$x[nama];
 $_SESSION[create_at]=$x[create_at];
 $_SESSION[kode_agen]=$x[kode_agen];
 $_SESSION[group]=$x[group];
-header("location:index.php");
+header("location:transaksi.php");
 }
 else{
 header("location:login.php");

@@ -11,7 +11,8 @@ header("location:login.php");
 include "koneksi.php";
 
 // perintah query
-$query="select * from harga_jual";
+$id_user = $_SESSION["id_user"];
+$query="select * from harga_jual where id_user='$id_user'";
 //$perintah=mysql_query($query);
 $perintah=mysqli_query($koneksi,$query);
 

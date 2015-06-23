@@ -11,21 +11,38 @@ $bayar=$_POST["bayar"];
 $saldo=$_POST["saldo"];
 $id_user = $_SESSION["id_user"];
 
+//Ambil Data Harga Setiap user
 $ambilq="select * from harga_jual where id_user='$id_user' and kode_produk='$kode_produk'";
 $ambil=mysqli_query($koneksi,$ambilq);
 $dth=mysqli_fetch_array($ambil);
-// print_r($dth['harga_jual']);
 
-if ($bayar==$dth['harga_jual']) {
-	$status = "LUNAS";
+if($dth['harga_jual']!==NULL){
+	// echo "Ada";
+	if ($bayar==NULL) {
+		$status = "Belum Bayar";
+	}elseif($bayar>=$dth['harga_jual']){
+		$status = "LUNAS";
+	}else{
+		$sisa = $dth['harga_jual'] - $bayar;
+		$status = "- ".$sisa;
+	}
 }else{
-	$sisa = $dth['harga_jual'] - $bayar;
-	$status = /*"-".*/$sisa;
+	$status = "Harga Jual Belum Di input";
+	// echo "Tidak Ada";
 }
 
-/*print_r($_POST);
+/*echo "<pre>";
+// print_r($_POST);
+print_r($bayar);
+echo "<br>";
+print_r($dth['harga_jual']);
+echo "<br>";
 print_r($_SESSION['id_user']);
-print_r($status);*/
+echo "<br>";
+print_r($dth);
+echo "<br>";
+print_r($status);
+echo "</pre>";*/
 
 $query="update transaksi set id_user='$id_user', tgl='$tgl', no_hp='$no_hp',kode_produk='$kode_produk',bayar='$bayar',saldo='$saldo', bayar='$bayar', status='$status' where id_trx='$id_trx'";
 $hasil=mysqli_query($koneksi,$query);

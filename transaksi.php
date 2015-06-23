@@ -14,7 +14,12 @@ $query="select * from transaksi where id_user='$id_user'";
 //$perintah=mysql_query($query);
 $perintah=mysqli_query($koneksi,$query);
 
+// perintah query
 $pilquery="select * from harga";
+$pilperintah=mysqli_query($koneksi,$pilquery);
+
+//Ambil Kode
+$pilquery="select * from harga_jual where id_user='$id_user'";
 $pilperintah=mysqli_query($koneksi,$pilquery);
 
 $title = "Transaksi";
@@ -96,7 +101,7 @@ include "side.php";
           <th>Bayar</th>
           <th>Tgl Bayar</th>
           <th>Status</th>
-          <th>Saldo</th>
+          <!-- <th>Saldo</th> -->
           <th>Action</th>
         </tr>
         <?php 
@@ -113,7 +118,7 @@ include "side.php";
           <td><?php echo $data["bayar"]; ?></td>
           <td><?php echo $data["tgl_bayar"]; ?></td>
           <td><?php echo $data["status"]; ?></td>
-          <td><?php echo $data["saldo"]; ?></td>
+          <!-- <td><?php //echo $data["saldo"]; ?></td> -->
           <td>
           <a href="transaksi.php?id_trx=<?php echo $data["id_trx"]; ?>"><i class="fa fa-pencil-square"></i> Edit</a> | 
 	      <a href="hapus_transaksi.php?id_trx=<?php echo $data["id_trx"]; ?>" onclick='return confirm_hapus()'><i class="fa fa-trash-o"></i> Hapus</a></td>
@@ -139,6 +144,9 @@ include "side.php";
 		//$perintah=mysql_query($query);
 		$perintahutrx=mysqli_query($koneksi,$queryutrx);
 		$datautrx=mysqli_fetch_array($perintahutrx);
+
+		$pilquery="select * from harga_jual where id_user='$id_user'";
+		$pilperintah=mysqli_query($koneksi,$pilquery);
   	?>
   <div class="box">
     <div class="box-header with-border">
@@ -159,7 +167,18 @@ include "side.php";
               <input type="text" name="no_hp" value="<?php echo $datautrx["no_hp"]; ?>" class="form-control" placeholder="No Hp..">
             </div>
             <div class="col-xs-2">
-              <input type="text" name="kode_produk" value="<?php echo $datautrx["kode_produk"]; ?>" class="form-control" placeholder="Kode Produk..">
+              <!-- <input type="text" name="kode_produk" value="<?php //echo $datautrx["kode_produk"]; ?>" class="form-control" placeholder="Kode Produk.."> -->
+              <select name="kode_produk" class="form-control">
+              	<?php //if($datautrx["kode_produk"]!=NULL) { ?>
+              		<option value="<?php echo $datautrx["kode_produk"]; ?>"><?php echo $datautrx["kode_produk"]; ?></option>
+              	<?php //}else{ ?>
+              		<!-- <option value="">Pilih Kode Produk</option> -->
+              	<?php// } ?>
+                
+                <?php while ($pildata=mysqli_fetch_array($pilperintah)) {?>
+                    <option value="<?php echo $pildata['kode_produk']; ?>"><?php echo $pildata['kode_produk']; ?></option>
+                <?php }?>
+              </select>
             </div>
              <div class="col-xs-2">
               <input type="text" name="bayar" value="<?php echo $datautrx["bayar"]; ?>" class="form-control" placeholder="Bayar..">
