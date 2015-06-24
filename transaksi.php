@@ -101,7 +101,7 @@ include "side.php";
           <th>Bayar</th>
           <th>Tgl Bayar</th>
           <th>Status</th>
-          <!-- <th>Saldo</th> -->
+          <th>Saldo</th>
           <th>Action</th>
         </tr>
         <?php 
@@ -118,7 +118,7 @@ include "side.php";
           <td><?php echo $data["bayar"]; ?></td>
           <td><?php echo $data["tgl_bayar"]; ?></td>
           <td><?php echo $data["status"]; ?></td>
-          <!-- <td><?php //echo $data["saldo"]; ?></td> -->
+          <td><?php echo $data["saldo"]; ?></td>
           <td>
           <a href="transaksi.php?id_trx=<?php echo $data["id_trx"]; ?>"><i class="fa fa-pencil-square"></i> Edit</a> | 
 	      <a href="hapus_transaksi.php?id_trx=<?php echo $data["id_trx"]; ?>" onclick='return confirm_hapus()'><i class="fa fa-trash-o"></i> Hapus</a></td>

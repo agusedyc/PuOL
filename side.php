@@ -34,6 +34,11 @@
 	                <i class="fa fa-dashboard"></i> <span>Harga Pulsa</span>
 	              </a>
 	            </li> 
+              <li>
+                <a href="manage_user.php">
+                  <i class="fa fa-users"></i> <span>Manage User</span>
+                </a>
+              </li> 
             <?php }else{ NULL; }?>
           
              

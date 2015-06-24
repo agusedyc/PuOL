@@ -5,7 +5,9 @@ session_start();
 if (empty($_SESSION["user"]) OR empty($_SESSION["group"])){
 header("location:login.php");
 } else {
-
+if ($_SESSION["group"]!=="Upline"){ 
+  header("location:transaksi.php");
+}
 // sertakan file koneksi.php
 include "koneksi.php";
 
