@@ -2,10 +2,10 @@
 ob_start();
 session_start();
 include "koneksi.php";
-$id_harga=$_POST["id_harga"];
-$nama_produk=$_POST["nama_produk"];
-$kode_produk=$_POST["kode_produk"];
-$harga=$_POST["harga"];
+$id_harga    = $_POST["id_harga"];
+$nama_produk = $_POST["nama_produk"];
+$kode_produk = $_POST["kode_produk"];
+$harga       = $_POST["harga"];
 
 
 $query="insert into harga(id_harga,nama_produk,kode_produk,harga) values('$id_harga','$nama_produk','$kode_produk','$harga')";

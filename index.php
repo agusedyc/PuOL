@@ -1,11 +1,11 @@
-<?php 
+<?php
 ob_start();
 session_start();
 
 if (empty($_SESSION["user"]) OR empty($_SESSION["group"])){
 header("location:login.php");
 } else {
-if ($_SESSION["group"]!=="Upline"){ 
+if ($_SESSION["group"]!=="Upline"){
   header("location:transaksi.php");
 }
 // sertakan file koneksi.php
@@ -25,10 +25,9 @@ include "side.php";
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-    Daftar Harga Pulsa    
+    Daftar Harga Pulsa
   </h1>
 </section>
-
 <!-- Main content -->
 <section class="content">
  <!--  <div class="callout callout-info">
@@ -81,7 +80,7 @@ include "side.php";
           <th>Harga</th>
           <th>Action</th>
         </tr>
-        <?php 
+        <?php
         	$i=0;
 
         	while ($data=mysqli_fetch_array($perintah)){
@@ -93,11 +92,11 @@ include "side.php";
           <td><?php echo $data["kode_produk"]; ?></td>
           <td><?php echo $data["harga"]; ?></td>
           <td>
-          <a href="index.php?id_harga=<?php echo $data["id_harga"]; ?>"><i class="fa fa-pencil-square"></i> Edit</a> | 
+          <a href="index.php?id_harga=<?php echo $data["id_harga"]; ?>"><i class="fa fa-pencil-square"></i> Edit</a> |
 	      <a href="hapus_harga.php?id_harga=<?php echo $data["id_harga"]; ?>" onclick='return confirm_hapus()'><i class="fa fa-trash-o"></i> Hapus</a></td>
   		  </tr>
         </tr>
-        <?php 
+        <?php
         	}
          ?>
       </table>
@@ -106,7 +105,7 @@ include "side.php";
       Footer
     </div> --><!-- /.box-footer-->
   </div><!-- /.box -->
-  <?php 
+  <?php
   	$id_harga=$_GET["id_harga"];
   	if ($id_harga==NULL) {
   		// echo "Kosong";
@@ -153,7 +152,7 @@ include "side.php";
 
 
 
-<?php } 
+<?php }
 include "footer-content.php";
 ?>
 

@@ -3,13 +3,13 @@ ob_start();
 session_start();
 include "koneksi.php";
 
-$id_trx=$_POST["id_trx"];
-$tgl=$_POST["tgl"];
-$no_hp=$_POST["no_hp"];
-$kode_produk=$_POST["kode_produk"];
-$bayar=$_POST["bayar"];
-$saldo=$_POST["saldo"];
-$id_user = $_SESSION["id_user"];
+$id_trx      = $_POST["id_trx"];
+$tgl         = $_POST["tgl"];
+$no_hp       = $_POST["no_hp"];
+$kode_produk = $_POST["kode_produk"];
+$bayar       = $_POST["bayar"];
+$saldo       = $_POST["saldo"];
+$id_user     = $_SESSION["id_user"];
 
 //Ambil Data Harga Setiap user
 $ambilq="select * from harga_jual where id_user='$id_user' and kode_produk='$kode_produk'";
