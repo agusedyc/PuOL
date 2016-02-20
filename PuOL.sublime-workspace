@@ -1,0 +1,903 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"icon-pe",
+				"glyphicon-pencil	BootstrapClass"
+			],
+			[
+				"col",
+				"col-md-12	BootstrapClass"
+			],
+			[
+				"remo",
+				"remote"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"themeV",
+				"themeV1"
+			],
+			[
+				"the",
+				"theme"
+			],
+			[
+				"theme",
+				"themeV2"
+			],
+			[
+				"Siswa",
+				"Siswa1"
+			],
+			[
+				"pro",
+				"production"
+			],
+			[
+				"che",
+				"checkStatus"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"sub",
+				"substr	PHPString"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"for",
+				"foreach	<?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"select",
+				"select_all"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"g",
+				"gslgnp"
+			],
+			[
+				"upda",
+				"updateUser"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"form",
+				"form-control	BootstrapClass"
+			],
+			[
+				"pers",
+				"persenFisik"
+			],
+			[
+				"end",
+				"endrole"
+			],
+			[
+				"pri",
+				"print_r	PHP"
+			],
+			[
+				"co",
+				"col-sm-6	BootstrapClass"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"real",
+				"realisasi_anggaran"
+			],
+			[
+				"angga",
+				"anggaran_kegiatan"
+			],
+			[
+				"gro",
+				"group"
+			],
+			[
+				"laporan",
+				"laporanKegiatan"
+			],
+			[
+				"lap",
+				"laporanKegiatan"
+			],
+			[
+				"idM",
+				"idMasterData"
+			],
+			[
+				"mas",
+				"masterData"
+			],
+			[
+				"bula",
+				"bulanan"
+			],
+			[
+				"bu",
+				"bulan"
+			],
+			[
+				"redire",
+				"redirect"
+			],
+			[
+				"cou",
+				"countIdMasterData"
+			],
+			[
+				"per",
+				"persentase_anggaran"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"btn",
+				"btn-danger	BootstrapClass"
+			],
+			[
+				"but",
+				"button	<button>"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"bul",
+				"bulan"
+			],
+			[
+				"fa-e",
+				"fa-eye	fa-eye"
+			],
+			[
+				"fa-tr",
+				"fa-trash	fa-trash"
+			],
+			[
+				"butto",
+				"button	Tag"
+			],
+			[
+				"bulan",
+				"bulan_realisasi_kegiatan"
+			],
+			[
+				"id",
+				"id_skpd"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"thea",
+				"thead	Tag"
+			],
+			[
+				"rea",
+				"realisasi_anggaran"
+			],
+			[
+				"foo",
+				"footerLaporan"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"htm",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"id_",
+				"id_master_data"
+			],
+			[
+				"master",
+				"master_data"
+			],
+			[
+				"data",
+				"dataLaporan"
+			],
+			[
+				"id_mas",
+				"id_master_data"
+			],
+			[
+				"masterda",
+				"master_data"
+			],
+			[
+				"rig",
+				"right	BootstrapClass"
+			],
+			[
+				"input-",
+				"input-group	BootstrapClass"
+			],
+			[
+				"fro",
+				"form-group	BootstrapClass"
+			],
+			[
+				"colm",
+				"col-md-2	BootstrapClass"
+			],
+			[
+				"inpu",
+				"inputh	input - hidden"
+			],
+			[
+				"fo",
+				"form-control	BootstrapClass"
+			],
+			[
+				"input",
+				"inputt	input - text"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"em",
+				"empty	PHP"
+			],
+			[
+				"tahun",
+				"tahun_kegiatan"
+			],
+			[
+				"target",
+				"target_fisik"
+			],
+			[
+				"ket",
+				"keterangan_kegiatan"
+			],
+			[
+				"no",
+				"november"
+			],
+			[
+				"ju",
+				"juni"
+			],
+			[
+				"mar",
+				"maret"
+			],
+			[
+				"use",
+				"usersSkpd"
+			],
+			[
+				"sk",
+				"skpd"
+			],
+			[
+				"con",
+				"construct	CI - Class Constructor"
+			],
+			[
+				"A",
+				"Auth"
+			],
+			[
+				"dat",
+				"date"
+			],
+			[
+				"sele",
+				"select	<select>"
+			],
+			[
+				"User",
+				"User::find"
+			],
+			[
+				"rol",
+				"roleUser"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"us",
+				"users"
+			],
+			[
+				"skpd",
+				"skpds"
+			],
+			[
+				"skp",
+				"skpds"
+			],
+			[
+				"Debu",
+				"Debugbar"
+			],
+			[
+				"Sk",
+				"SkpdController"
+			],
+			[
+				"redi",
+				"redirect"
+			],
+			[
+				"ro",
+				"roleThisUser"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
+				"result",
+				"result_array"
+			],
+			[
+				"get",
+				"get_user"
+			],
+			[
+				"ht",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"ta",
+				"tajson"
+			],
+			[
+				"he",
+				"height	Attr"
+			],
+			[
+				"acc",
+				"acckrs"
+			],
+			[
+				"myiframe",
+				"myiframea"
+			],
+			[
+				"sc",
+				"script	<script>"
+			],
+			[
+				"site",
+				"site_url	phpCi"
+			],
+			[
+				"jeis",
+				"jenis_terang"
+			],
+			[
+				"det",
+				"detil_terang"
+			],
+			[
+				"wor",
+				"word_limiter	phpCi"
+			],
+			[
+				"edi",
+				"edit_terang"
+			],
+			[
+				"penc",
+				"glyphicon-pencil	BootstrapClass"
+			],
+			[
+				"jenis",
+				"jenis_terang"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"col-md",
+				"col-md-6	BootstrapClass"
+			],
+			[
+				"te",
+				"textarea	HTML/Element"
+			],
+			[
+				"off",
+				"col-sm-offset-4	BootstrapClass"
+			],
+			[
+				"user_",
+				"user_foto"
+			],
+			[
+				"nama",
+				"nama_file"
+			],
+			[
+				"forea",
+				"foreach	foreach …"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"des",
+				"\\$this->session->sess_destroy	phpCi"
+			],
+			[
+				"unse",
+				"unset_userdata('logged_in"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"na",
+				"name	Attr"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"bas",
+				"base_url	phpCi"
+			],
+			[
+				"app",
+				"app_info"
+			],
+			[
+				"unset",
+				"\\$this->session->unset_userdata	phpCi"
+			],
+			[
+				"sessio",
+				"session_userdata	CI - Session - Retrieving Session Data"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				" view",
+				"View: Toggle Menu"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"route",
+				"Laravel Artisan: Route: List"
+			],
+			[
+				"laravel mo",
+				"Laravel Artisan: Make: Controller"
+			],
+			[
+				"	model",
+				"Laravel Make: Model"
+			],
+			[
+				"	artisan",
+				"Laravel Artisan: Make: Controller"
+			],
+			[
+				"artisan ma",
+				"Laravel Artisan: Make: Controller"
+			],
+			[
+				"al",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 728.0
+	},
+	"console":
+	{
+		"height": 109.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/agusedyc/Documents/GitHub/PuOL"
+	],
+	"file_history":
+	[
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV2/home/detail.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV2/home/jurnal.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV2/home/register.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV2/home/login.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV2/template/navhome.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/assets/custom/js/validasi.js",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/models/lihat.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/controllers/tambahan.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/assets/themeV2/custom/js/formValidasi.js",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV2/template/footer.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV2/template.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/libraries/Template.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/config/routes.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/controllers/home.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/assets/input-mask/jquery.inputmask.phone.extensions.js",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/controllers/validasi.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/system/database/DB_result.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/views/themeV1/template.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/index.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/libraries/front.php",
+		"/home/agusedyc/Documents/Project/jurnal/Application/application/libraries/template.php",
+		"/root/Documents/web/ctksia/Jurnal_TISI_FTIK.sublime-project",
+		"/root/Documents/web/ctksia/SiCut.sublime-project",
+		"/root/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/root/Documents/web/ctksia/simple_html_dom.php",
+		"/root/Documents/web/ctksia/index3.php",
+		"/root/Documents/web/ctksia/index2.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/master/index.blade.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/Controllers/MasterDataController.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/Controllers/UserController.php",
+		"/root/Documents/web/laravel/bankeu/app/Skpd.php",
+		"/root/Documents/web/laravel/bankeu/app/TargetFisik.php",
+		"/root/Documents/web/laravel/bankeu/app/MasterData.php",
+		"/root/Documents/web/laravel/bankeu/app/User.php",
+		"/root/Documents/web/kelas/index.php",
+		"/root/Documents/web/pjkbk/application/controllers/Welcome.php",
+		"/root/Documents/web/kelas/application/views/home/login.php",
+		"/root/Documents/web/pjkbk/application/views/back/pj/edit_daftar_kelas.php",
+		"/root/Documents/web/pjkbk/application/views/back/pj/daftar_kls.php",
+		"/root/Documents/web/pjkbk/application/views/back/koordinator/rekap_kls.php",
+		"/root/Documents/web/pjkbk/application/views/templates/t_back/admin/sideadmin.php",
+		"/root/Documents/web/pjkbk/application/views/back/admin/semester.php",
+		"/root/Documents/web/pjkbk/application/views/back/admin/reg_admin.php",
+		"/root/Documents/web/pjkbk/application/models/Relation.php",
+		"/root/Documents/web/pjkbk/application/models/Crud.php",
+		"/root/Documents/web/pjkbk/application/controllers/Admin.php",
+		"/root/Documents/web/pjkbk/application/controllers/Semester.php",
+		"/root/Documents/web/pjkbk/application/controllers/Pj.php",
+		"/root/Documents/web/pjkbk/application/controllers/Koordinator.php",
+		"/root/Documents/web/pjkbk/application/config/database.php",
+		"/root/Documents/web/pjkbk/application/libraries/Tkoordinator.php",
+		"/root/Documents/web/laravel/bankeu/app/RoleUser.php",
+		"/root/Documents/web/laravel/bankeu/config/app.php",
+		"/root/Documents/web/laravel/bankeu/app/LaporanKegiatan.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/Kernel.php",
+		"/root/Documents/web/laravel/bankeu/app/Exceptions/Handler.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/Controllers/SkpdController.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/routes.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/Controllers/LaporanKegiatanController.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/Controllers/ReportController.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/user/edit.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/partials/sidebar.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/user/index.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/skpd/edit.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/master/create.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/master/show.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/master/edit.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/laporankegiatan/index.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/laporankegiatan/edit.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/cetak/bulanan.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/cetak/rekap.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/cetak/lapctk.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/cetak/laprekap.blade.php",
+		"/root/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/root/Documents/web/laravel/bankeu/resources/views/laporankegiatan/create.blade.php",
+		"/root/Documents/web/laravel/bankeu/sftp-config.json",
+		"/root/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/root/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/root/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/root/Documents/web/laravel/bankeu/resources/views/app.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/partials/htmlheader.blade.php",
+		"/root/Documents/web/laravel/bankeu/public/js/format.js",
+		"/root/Documents/web/laravel/bankeu/resources/views/partials/scripts.blade.php",
+		"/root/Documents/web/laravel/bankeu/.htaccess",
+		"/root/Documents/web/laravel/bankeu/public/.htaccess",
+		"/root/Documents/web/kelas/application/config/database.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/cetak/index.blade.php",
+		"/root/Documents/web/laravel/backup/bankeu/resources/views/laporankegiatan/index.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/user/show.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/cetak/create.blade.php",
+		"/home/agusedyc/Documents/cobaReport/report.php",
+		"/root/Documents/web/ctksia/acckrs2.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/cetak/lapctk.blade.ph",
+		"/root/Documents/web/laravel/daol/app/Http/routes.php",
+		"/root/Documents/web/laravel/daol/app/Http/Controllers/SkpdController.php",
+		"/root/Documents/web/laravel/daol/resources/views/laporan/coba.blade.php",
+		"/root/Documents/web/laravel/daol/config/app.php",
+		"/home/agusedyc/Documents/MasterDataController.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/skpd/index.blade.php",
+		"/root/Documents/web/laravel/bankeu/vendor/bican/roles/src/Bican/Roles/Models/Role.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/user/create.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/skpd/create.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/partials/mainheader.blade.php",
+		"/root/Documents/web/laravel/laravel-roles/app/Http/Controllers/HelooController.php",
+		"/root/Documents/web/laravel/daol/resources/views/auth/login.blade.php",
+		"/root/Documents/web/laravel/daol/resources/views/home.blade.php",
+		"/root/Documents/web/laravel/daol/app/Http/Kernel.php",
+		"/root/Documents/web/laravel/daol/sftp-config.json",
+		"/root/Documents/web/laravel/daol/app/Http/Controllers/Auth/AuthController.php",
+		"/root/Documents/web/laravel/daol/app/Http/Controllers/Controller.php",
+		"/root/Documents/web/laravel/daol/app/User.php",
+		"/root/Documents/web/laravel/daol/app/Role.php",
+		"/root/Documents/web/laravel/bankeu/.env",
+		"/root/Documents/web/laravel/laravel-roles/app/User.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/auth/login.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/auth/register.blade.php",
+		"/root/Documents/web/laravel/bankeu/resources/views/auth/password.blade.php",
+		"/root/Documents/web/laravel/bankeu/app/Http/Controllers/Auth/AuthController.php",
+		"/root/Documents/web/laravel/bankeu/composer.json",
+		"/root/Documents/web/laravel/laravel-roles/app/Http/routes.php",
+		"/root/Documents/web/laravel/laravel-roles/app/Http/Kernel.php",
+		"/root/Documents/web/laravel/laravel-roles/resources/views/heloo.blade.php",
+		"/root/Documents/web/laravel/laravel-roles/config/app.php",
+		"/root/Documents/web/laravel/daol/app/Http/Controllers/CheckController.php",
+		"/root/Documents/web/laravel/daol/app/Http/Middleware/RoleMiddleware.php",
+		"/root/Documents/web/laravel/daol/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/root/Documents/web/laravel/laravel-acl-demo/app/Http/Controllers/CobaController.php",
+		"/root/Documents/web/laravel/daol/resources/views/skpd/create.blade.php"
+	],
+	"find":
+	{
+		"height": 73.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jurnal",
+			"num_rows",
+			"login",
+			"find",
+			"form",
+			"plaintext",
+			"print_r",
+			"two",
+			"twi",
+			"two",
+			"tambah",
+			"cetak",
+			"laporan.s",
+			"laporan.show",
+			"laporan",
+			"cetak",
+			"dd",
+			"edit",
+			"}',",
+			"user",
+			"like",
+			"{\n",
+			"'Html'      => Collective\\Html\\HtmlFacade::class,\n        'Flash'     => Laracasts\\Flash\\Flash::class,",
+			"Submit",
+			"?> ",
+			"databa",
+			"layout",
+			"body",
+			"clean",
+			"xss",
+			"        \n",
+			"dta",
+			"welcome",
+			"$hasil",
+			"csrf",
+			"load",
+			"autoload",
+			"trbt",
+			"crud",
+			"$crud"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"laporan",
+			"aut"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 84.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 171.0
+	},
+	"pinned_build_system": "",
+	"project": "PuOL.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/web/ctksia/SiCut.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
