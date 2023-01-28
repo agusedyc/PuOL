@@ -1,7 +1,7 @@
 <?php 
-$host="localhost";
+$host="mariadb";
 $username="root";
-$password="agusedyc";
+$password="db_15046";
 $db="pulsa";
 
 // koneksi ke server
