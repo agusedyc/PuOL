@@ -3,7 +3,7 @@ version: '3.2'
 services:
   php:
     image: geerlingguy/php-apache:5.6
-    container_name: php
+    # container_name: php
     # restart: on-failure
     volumes:
       # - ~/.composer-docker/cache:/root/.composer/cache:delegated
@@ -15,7 +15,7 @@ services:
 
   mariadb:
     image: mariadb:10.3
-    container_name: mariadb
+    # container_name: mariadb
     # restart: on-failure
     volumes:
       - db_persistent:/var/lib/mysql
